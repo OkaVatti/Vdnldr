@@ -1,0 +1,38 @@
+YouTube Video Downloader written in C
+
+TODO: Retrieve Video URL: You need to extract the direct video URL from the 
+        YouTube page's HTML, typically available in the page source code.
+
+        YouTube streams using blob links
+            - i.e;
+                blob:https://www.youtube.com/4826b806-caa5-4e0f-814c-0ec94467e717
+
+TODO: Initiate an HTTP GET Request: Use libcurl to make an HTTP GET request 
+        to the video URL. This request will retrieve the video data in chunks.
+
+TODO: Receive Video Data: As you make the GET request, you'll receive video 
+        data in chunks. You need to save and organize these chunks in your program.
+
+TODO: Save Video Locally: As you receive video data chunks, you'll save them
+        locally to form the complete video file. You need to handle situations 
+        where the video is divided into multiple streams (e.g., video and audio) 
+        and merge them correctly.
+
+TODO: Video Format: YouTube videos are often available in various formats and 
+        quality levels. You need to decide which format you want to download 
+        and handle the corresponding data.
+
+TODO: Video Metadata: While the primary focus here is on downloading the video 
+        data, it's a good practice to obtain video metadata from the 
+        YouTube Data API (separately) to provide information like the 
+        video title, author, description, etc.
+
+TODO: FFmpeg Integration (Optional): If you want to convert the video format or 
+        perform any post-processing on the downloaded video, you can use FFmpeg. 
+        This step comes after downloading the video data.
+
+
+OPTIONAL:
+    TODO: initiate a deal with with matt (the OG plug)
+    TODO: Smoke some sweet indica
+    TODO: Tell Wahasha to ask out that muslim girl he keeps talking about
